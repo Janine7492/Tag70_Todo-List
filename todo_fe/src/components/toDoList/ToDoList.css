@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.counter {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem auto;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.inputTask {
+    width: 80%;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: rgb(243, 241, 238);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px dimgray;
+    text-align: center;
+}
+
+.inputUrgency {
+    width: 60%;
+    margin: 0.5rem auto;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: rgb(243, 241, 238);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px dimgray;
+    text-align: center;
+}
+
+.submitBtn {
+    width: 20%;
+    background-color: rgb(55, 55, 126);
+    color: aliceblue;
+    margin: 0.5rem auto;
+    border: none;
+    box-shadow: 2px 2px 5px dimgray;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.submitBtn:active {
+    box-shadow: inset 2px 2px 5px dimgray;
+}
